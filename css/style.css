@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Matura;
+    src: url(../fonts/MATURASC.TTF);
+}
+
 html, body  {
     padding: 0;
     margin: 0;
@@ -37,6 +42,7 @@ header {
     flex-direction: row;
 }
 .header-left {
+    padding: 27px 0 0 230px;
     width: 50%;
 }
 .header-right {
@@ -70,13 +76,8 @@ footer {
     flex-direction: row;
     justify-content: space-between;
 }
-.test {
-    background-color: red;
-    width: 400px;
-    height: 200px;
-}
+
 .left-side {
-    
     width: 50%;
     background: #34495E;
 }
@@ -369,9 +370,9 @@ footer {
     color: #ECF0F1;
 }
 .form-submit {
-    background-color: #ECF0F1;
+    background: url(../images/Paper-plane.svg) #ECF0F1 center no-repeat;
     border: 2px solid #34495E;
-    background-image: url(images/Paper-plane.svg) !important;
+    cursor: pointer;
 }
 .text-area {
     height: 168px;
@@ -379,4 +380,15 @@ footer {
 }
 .forms:last-child {
     margin-bottom: 0;
+}
+.map-background {
+    background: #ECF0F1 url(../images/map.png) right center no-repeat;
+}
+.stamp  {
+    font-family: Matura, Tahoma, sans-serif;
+    font-size: 36px;
+    color: #ECF0F1;
+}
+.stamp-dark {
+    color: #34495E;
 }

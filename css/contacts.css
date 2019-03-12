@@ -55,9 +55,6 @@
 }
 
 @media screen and (max-width: 1600px) {
-    #main-area {
-        background: red;
-    }
     .map-background {
         background-size: 50% 100%;
     }
@@ -77,27 +74,16 @@
     }
 }
 @media screen and (max-width: 1200px) {
-    #main-area {
-        background: yellow;
-    }
     .left-side-padding {
         padding-left: 0;
     }
 }
 @media screen and (max-width: 960px) {
-    #main-area {
-        background: blue;
-    }
     .form-submit {
         background: url(../images/Paper-plane.svg) #ECF0F1 68% 50% no-repeat;
     }
 }
 @media screen and (max-width: 768px) {
-
-    #main-area {
-        background: green;
-
-    }
     .contacts-form {
         width: 250px;
     }
@@ -130,9 +116,6 @@
     }
 }
 @media screen and (max-width: 352px) {
-    #main-area {
-        background: teal;
-    }
     .contacts-right {
         min-height: 320px;
     }

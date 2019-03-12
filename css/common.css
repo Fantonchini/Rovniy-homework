@@ -193,28 +193,16 @@ div {
     color: #34495E;
 }
 @media screen and (max-width: 1600px) {
-    #main-area {
-        background: red;
-    }
     .container {
-        height: 99%;
+        height: 100%;
     }
 }
 @media screen and (max-width: 1200px) {
-    #main-area {
-        background: yellow;
-    }
 }
 @media screen and (max-width: 960px) {
-    #main-area {
-        background: blue;
-    }
 }
 @media screen and (max-width: 768px) {
-    #main-area {
-        background: green;
-    }
-     .header-left {
+    .header-left {
         padding: 27px 0 0 0;
         text-align: center;
     }
@@ -234,7 +222,4 @@ div {
     }
 }
 @media screen and (max-width: 352px) {
-    #main-area {
-        background: teal;
-    }
 }

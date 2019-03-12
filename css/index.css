@@ -1,0 +1,14 @@
+.title-area {
+    font: bold 72px/80px 'Open Sans', Tahoma, serif;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 1.7px;
+    color: #FFFFFF;
+    display: block;
+    width: 750px;
+    height: 170px;
+    margin: 0;
+    background: linear-gradient(to right, #FFF 0%, #FFF 49.99%, #34495E 50%, #34495E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

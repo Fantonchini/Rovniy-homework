@@ -54,7 +54,6 @@ div {
     width: 100%;
     display: flex;
     flex-direction: row;
-
 }
 .footer-left {
     width: 50%;
@@ -72,7 +71,6 @@ div {
     align-items: center;
     padding-bottom: 72px;
 }
-
 .left-side {
     width: 50%;
     background: #34495E;
@@ -83,25 +81,20 @@ div {
 .menu {
     text-align: center;
 }
-
 .menu-list {
     padding: 0;
     margin: 0;
 }
-
 .menu-list-dark .menu-item .menu-link, .menu-list-dark .menu-item .menu-link:hover:before {
     color: #34495E;
 }
-
 .menu-item {
     display: inline-block;
     margin-left: 40px;
 }
-
 .menu-item:first-child {
     margin-left: 0;
 }
-
 .menu-link {
     font: bold 12px/15px 'Merriweather Sans', Tahoma, serif;
     letter-spacing: 1.2px;

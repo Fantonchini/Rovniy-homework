@@ -58,24 +58,82 @@
     #main-area {
         background: red;
     }
+    .map-background {
+        background-size: 50% 100%;
+    }
+    .forms {
+        font-size: 11px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .text-area {
+        height: 134px;
+    }
+    .contacts-form {
+        width: 50%;
+    }
+    .form-submit {
+        background: url(../images/Paper-plane.svg) #ECF0F1 65% 50% no-repeat;
+    }
 }
 @media screen and (max-width: 1200px) {
     #main-area {
         background: yellow;
+    }
+    .left-side-padding {
+        padding-left: 0;
     }
 }
 @media screen and (max-width: 960px) {
     #main-area {
         background: blue;
     }
+    .form-submit {
+        background: url(../images/Paper-plane.svg) #ECF0F1 68% 50% no-repeat;
+    }
 }
 @media screen and (max-width: 768px) {
+
     #main-area {
         background: green;
+
+    }
+    .contacts-form {
+        width: 250px;
+    }
+    .map-background {
+        background: #ECF0F1;
+    }
+    .page-title, .social-link .fab{
+        color: #34495E;
+    }
+    .social-link {
+        border-color: #34495E;
+    }
+    .contacts-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts-left {
+        width: 100%;
+        padding-top: 40px;
+    }
+    .contacts-right {
+        margin: 40px 0 40px;
+        min-width: 100%;
+        min-height: 100vw;
+        background: url(../images/map.png) right bottom no-repeat;
+        background-size: cover;
+    }
+    .form-submit {
+        background: #ECF0F1;
     }
 }
 @media screen and (max-width: 352px) {
     #main-area {
         background: teal;
+    }
+    .contacts-right {
+        min-height: 320px;
     }
 }

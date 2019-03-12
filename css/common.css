@@ -197,7 +197,7 @@ div {
         background: red;
     }
     .container {
-        height: 90%;
+        height: 95%;
     }
 }
 @media screen and (max-width: 1200px) {
@@ -228,6 +228,9 @@ div {
     .footer-right, .footer-left {
         width: 100%;
         padding-bottom: 27px;
+    }
+    .container {
+        overflow-y: visible;
     }
 }
 @media screen and (max-width: 352px) {

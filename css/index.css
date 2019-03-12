@@ -12,3 +12,51 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+@media screen and (max-width: 1600px) {
+    #main-area {
+        background: red;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #main-area {
+        background: yellow;
+    }
+}
+@media screen and (max-width: 960px) {
+    #main-area {
+        background: blue;
+    }
+}
+@media screen and (max-width: 768px) {
+    #main-area {
+        background: green;
+    }
+    .container {
+        background: #34495E;
+    }
+    .page-title-dark {
+        color: #ECF0F1;
+    }
+    .title-area {
+        margin: 0 auto;
+        -webkit-text-fill-color: unset;
+        width: 90%;
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .social-list-dark .social-item .social-link {
+        border-color: #ECF0F1;
+    }
+    .social-list-dark .social-item .social-link .fab {
+        color: #ECF0F1;
+    }
+}
+@media screen and (max-width: 352px) {
+    #main-area {
+        background: teal;
+    }
+    .title-area {
+        font-size: 36px;
+        line-height: 40px;
+    }
+}

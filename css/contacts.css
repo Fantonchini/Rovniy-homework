@@ -53,3 +53,29 @@
 .forms:focus, a:focus   {
     outline: none;
 }
+
+@media screen and (max-width: 1600px) {
+    #main-area {
+        background: red;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #main-area {
+        background: yellow;
+    }
+}
+@media screen and (max-width: 960px) {
+    #main-area {
+        background: blue;
+    }
+}
+@media screen and (max-width: 768px) {
+    #main-area {
+        background: green;
+    }
+}
+@media screen and (max-width: 352px) {
+    #main-area {
+        background: teal;
+    }
+}

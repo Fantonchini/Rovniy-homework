@@ -113,3 +113,108 @@
     width: 200px;
     height: 200px;
 }
+
+@media screen and (max-width: 1600px) {
+    #main-area {
+        background: red;
+    }
+    .about-right-text {
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .about-container-left {
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-plate-text {
+        font-size: 14px;
+        width: 90%;
+    }
+    .plate-quotes {
+        margin-bottom: 20px;
+        max-width: 32px;
+        height:auto;
+    }
+    .about-container-right {
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-right-text-area {
+        width: 70%;
+    }
+    .circle {
+        display: none;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #main-area {
+        background: yellow;
+    }
+}
+@media screen and (max-width: 960px) {
+    #main-area {
+        background: blue;
+    }
+    .about-right-text {
+        font-size: 8px;
+        line-height: 10px;
+    }
+.about-plate-text {
+        font-size: 12px;
+        width: 85%;
+    }
+    .plate-quotes {
+        margin-bottom: 16px;
+        max-width: 26px;
+        height:auto;
+    }
+.about-right-text-area {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #main-area {
+        background: green;
+    }
+    .container-reverse {
+        background: #ECF0F1;
+    }
+    .page-title, .social-link .fab, .about-right-text {
+        color: #34495E;
+    }
+    .social-link {
+        border-color: #34495E;
+    }
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+    }
+    .about-container-left, .about-container-right {
+        width: 80%;
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .plate-quotes {
+        margin: 0 16px 0 0;
+    }
+    .about-container-right {
+        padding: 40px 0 20px 0;
+    }
+    .about-right-text-area {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 352px) {
+    #main-area {
+        background: teal;
+    }
+}

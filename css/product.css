@@ -43,3 +43,29 @@
     background: #D8D8D8;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.246801);
 }
+
+@media screen and (max-width: 1600px) {
+    #main-area {
+        background: red;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #main-area {
+        background: yellow;
+    }
+}
+@media screen and (max-width: 960px) {
+    #main-area {
+        background: blue;
+    }
+}
+@media screen and (max-width: 768px) {
+    #main-area {
+        background: green;
+    }
+}
+@media screen and (max-width: 352px) {
+    #main-area {
+        background: teal;
+    }
+}

@@ -197,7 +197,7 @@ div {
         background: red;
     }
     .container {
-        height: 95%;
+        height: 99%;
     }
 }
 @media screen and (max-width: 1200px) {

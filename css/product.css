@@ -63,6 +63,15 @@
     #main-area {
         background: green;
     }
+    .container {
+        background: #34495E;
+    }
+    .page-title-dark, .social-list-dark .social-item .social-link .fab {
+        color: #ECF0F1;
+    }
+.social-list-dark .social-item .social-link {
+        border-color: #ECF0F1;
+    }
 }
 @media screen and (max-width: 352px) {
     #main-area {

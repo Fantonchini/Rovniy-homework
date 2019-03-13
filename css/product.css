@@ -46,9 +46,9 @@
 
 @media screen and (max-width: 1600px) {
     .product-image {
-        width: 50%;
+        width: 45%;
         height: auto;
-        top: 16%;
+        top: 11%;
         left: 36.5%;
     }
 }

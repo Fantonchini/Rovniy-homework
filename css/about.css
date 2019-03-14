@@ -115,9 +115,22 @@
 }
 
 @media screen and (max-width: 1600px) {
+    #main-area {
+        background: red;
+    }
+    .container {
+        overflow-y: visible;
+    }
     .about-right-text {
-        font-size: 10px;
-        line-height: 13px;
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .about-right-text-area {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .about-container-left {
         padding-top: 0;
@@ -140,19 +153,42 @@
         flex-direction: column;
         justify-content: center;
     }
-    .about-right-text-area {
-        width: 70%;
+    .circle-background {
+        display: none;
     }
     .circle {
-        display: none;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin-left: 33%;
+        transform: scale(0.9);
     }
 }
 @media screen and (max-width: 1200px) {
+        #main-area {
+        background: blue;
+    }
+    .about-right-text {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .circle {
+        margin-left: 25%;
+    }
 }
 @media screen and (max-width: 960px) {
+        #main-area {
+        background: teal;
+    }
+    .circle {
+        margin-left: 20%;
+        transform: scale(0.8);
+    }
     .about-right-text {
-        font-size: 8px;
-        line-height: 10px;
+        font-size: 12px;
+        line-height: 15px;
     }
     .about-plate-text {
         font-size: 12px;
@@ -168,6 +204,14 @@
     }
 }
 @media screen and (max-width: 768px) {
+    .circle {
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto auto;
+        margin-top: 20%;
+        transform: scale(1);
+    }
     .container-reverse {
         background: #ECF0F1;
     }
@@ -180,7 +224,6 @@
     .about-container {
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         padding-top: 40px;
     }
     .about-container-left, .about-container-right {
@@ -195,6 +238,7 @@
         margin: 0 16px 0 0;
     }
     .about-container-right {
+        height: auto;
         padding: 40px 0 20px 0;
     }
     .about-right-text-area {

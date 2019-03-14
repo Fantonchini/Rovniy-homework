@@ -55,6 +55,9 @@
 }
 
 @media screen and (max-width: 1600px) {
+    .container {
+        overflow-y: visible;
+    }
     .map-background {
         background-size: 50% 100%;
     }
@@ -67,7 +70,7 @@
         height: 134px;
     }
     .contacts-form {
-        width: 50%;
+        width: 300px;
     }
     .form-submit {
         background: url(../images/Paper-plane.svg) #ECF0F1 65% 50% no-repeat;

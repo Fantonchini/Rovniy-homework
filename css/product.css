@@ -43,8 +43,10 @@
     background: #D8D8D8;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.246801);
 }
-
 @media screen and (max-width: 1600px) {
+    .container {
+        overflow-y: visible;
+    }
     .product-image {
         width: 45%;
         height: auto;
@@ -54,9 +56,9 @@
 }
 @media screen and (max-width: 1200px) {
     .product-image {
-        width: 65%;
+        width: 100%;
         position: static;
-        margin: 0 auto;
+        margin: 20px 0 20px;
     }
     .product-left-side {
         padding: 40px 14.375% 0 14.375%;
@@ -75,6 +77,9 @@
     .product-text {
         color: #34495E;
         width: 40%;
+    }
+    .product-container {
+        height: auto;
     }
 }
 @media screen and (max-width: 960px) {
@@ -105,6 +110,7 @@
         justify-content: flex-start;
     }
     .product-text {
+        width: 60%;
         text-align: center;
         color: #ECF0F1;
     }
